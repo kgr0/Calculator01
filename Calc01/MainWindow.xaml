@@ -5,18 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calc01"
         mc:Ignorable="d"
-        Title="Calculator Alex" Height="400" Width="400" ResizeMode="NoResize">
+        Title="Calculator Alex" Height="200" Width="300" ResizeMode="NoResize">
     <StackPanel>
-        <TextBox x:Name="a_value" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="a" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="a_value" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="a" VerticalAlignment="Top" FontSize="20"/>
         <StackPanel Orientation="Horizontal">
-            <Button x:Name="button_plus" Content="+" Margin="5" Width="20" Click="button_plus_Click"/>
-            <Button x:Name="button_minus" Content="-" Margin="5" Width="20" Click="button_minus_Click"/>
-            <Button x:Name="button_multi" Content="*" Margin="5" Width="20" Click="button_multi_Click"/>
-            <Button x:Name="button_div" Content="/" Margin="5" Width="20" Click="button_div_Click"/>
+            <Button x:Name="button_plus" Content="+" Margin="5" Width="30" Click="button_plus_Click" FontSize="20" Height="30" Background="White"/>
+            <Button x:Name="button_minus" Content="-" Margin="5" Width="30" Click="button_minus_Click" FontSize="20" Height="30" Background="White"/>
+            <Button x:Name="button_multi" Content="*" Margin="5" Width="30" Click="button_multi_Click" FontSize="20" Height="30" Background="White"/>
+            <Button x:Name="button_div" Content="/" Margin="5" Width="30" Click="button_div_Click" FontSize="20" Height="30" Background="White"/>
         </StackPanel>
-        <TextBox x:Name="b_value" HorizontalAlignment="Left" Height="23"  TextWrapping="Wrap" Text="b" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="button_eq" Content="=" Click="button_eq_Click"/>
-        <TextBlock x:Name="result" TextWrapping="Wrap" Text="res"/>
+        <TextBox x:Name="b_value" HorizontalAlignment="Left" Height="30"  TextWrapping="Wrap" Text="b" VerticalAlignment="Top" FontSize="20" />
+        <Button x:Name="button_eq" Content="=" Click="button_eq_Click" Height="30" FontSize="20" Background="White"/>
+        <TextBlock x:Name="result" TextWrapping="Wrap" Text="res" Height="30" FontSize="20"/>
 
 
 
